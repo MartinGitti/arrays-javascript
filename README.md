@@ -7,6 +7,6 @@ JavaScript project that focuses on creating &amp; working with arrays.
 <hr/>
 
 * Task 2, Page View:
-<img src="/images/task 2-1.JPG" alt="View of Page">
+<img src="/images/task 2-1.JPG" alt="View of Page" style="text-align: center;">
 
 Happy Coding :sunglasses:
