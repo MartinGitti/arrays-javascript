@@ -1,0 +1,61 @@
+<!-- ===============================PART 1================================ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Arrays</title>
+  <!-- Link to JS Sheet -->
+  <script src="arrayTask.js"></script>
+  <!-- Link to Css Sheet -->
+  <link rel="stylesheet" href="arrayTask.css">
+</head>
+
+<body onload="loadContent()">
+  <h1>Languages I'd like to learn:</h1>
+  <!-- Button to display language list. -->
+  <button onclick="displayList()">Click Here To Display Languages!</button>
+  <ul id="favLanguages"></ul>
+  <br>
+  <!-- Button to display test results. -->
+  <button onclick="displayResults()">Click Here To Display Test Results!</button>
+
+  <!-- Button to display average of test results. -->
+  <button onclick="displayAverage()">The avarage of the test results is:</button>
+  <p id="result">Results will show here once buttons above have been clicked.</p>
+  <br>
+
+  <h2>The appropriate letter symbol for the average result above is:</h2>
+  <div id="myGrades">
+    <table>
+      <tr>
+        <th>Average Percentage</th>
+        <th>Letter Symbol</th>
+      </tr>
+      <tr>
+        <td>80 - 100</td>
+        <td id="highlight">A</td>
+      </tr>
+      <tr>
+        <td>70 - 79</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>60 -69</td>
+        <td>C</td>
+      </tr>
+      <tr>
+        <td>50 -59</td>
+        <td>D</td>
+      </tr>
+      <tr>
+        <td>49 0r less</td>
+        <td>F</td>
+      </tr>
+      
+    </table>
+  </div>
+
+</body>
+</html>
+<!-- ===============================THE END================================ -->
