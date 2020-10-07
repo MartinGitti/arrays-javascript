@@ -1,5 +1,6 @@
 # javascript-arrays
-JavaScript project that focuses on creating &amp; working with arrays.
+*JavaScript project that focuses on creating &amp; working with arrays.
+* Learning different ways to store & display data.
 
 * Task 1, page View:
 <img src="/images/task1-1.JPG" alt="View of Page">
